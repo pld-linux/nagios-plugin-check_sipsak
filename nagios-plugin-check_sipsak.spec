@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania urządzeń i serwerów SIP
 Name:		nagios-plugin-check_sipsak
 # revision from cvs id
 Version:	1.5
-Release:	3
+Release:	4
 License:	GPL
 Group:		Networking
 # Source0:	http://www.nagiosexchange.org/cgi-bin/jump.cgi?ID=2249&view=File1;d=1
