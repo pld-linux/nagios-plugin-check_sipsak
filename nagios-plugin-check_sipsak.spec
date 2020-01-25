@@ -1,7 +1,6 @@
 # TODO
 # - command and service template definition
 %define		plugin	check_sipsak
-%include	/usr/lib/rpm/macros.perl
 Summary:	Nagios plugin to check SIP server/device
 Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania urządzeń i serwerów SIP
 Name:		nagios-plugin-%{plugin}
