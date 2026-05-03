@@ -6,7 +6,7 @@ Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania urządzeń i serwerów SIP
 Name:		nagios-plugin-%{plugin}
 # revision from cvs id
 Version:	1.5
-Release:	6
+Release:	7
 License:	GPL
 Group:		Networking
 # Source0:	http://www.nagiosexchange.org/cgi-bin/jump.cgi?ID=2249&view=File1;d=1
@@ -19,7 +19,7 @@ Requires:	sipsak
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	perl(utils)
+%define		_noautoreq_perl		utils
 
 %define		plugindir	%{_prefix}/lib/nagios/plugins
 %define		_sysconfdir	/etc/nagios/plugins
